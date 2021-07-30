@@ -20,7 +20,7 @@
 		<!-- Default extra plugins enabled -->
 		<ckeditor-extra-plugins>sakaipreview,image2,audiorecorder,contentitem,html5video,wordcount,notification,autosave,bt_table</ckeditor-extra-plugins>
 		<!-- Empty defaults for a11y-->
-		<ckeditor-a11y-extra-plugins></ckeditor-a11y-extra-plugins>
+		<ckeditor-a11y-extra-plugins/>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -276,7 +276,7 @@
 		<dependency>
 			<groupId>org.webjars.npm</groupId>
 			<artifactId>mathjs</artifactId>
-			<version>6.5.0</version>
+			<version>9.4.4</version>
 		</dependency>
 		<!--Used in feedback tool-->
 		<dependency>
